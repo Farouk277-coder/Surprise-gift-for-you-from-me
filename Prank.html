@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Warning! Virus Detected</title>
+  <style>
+    /* Styling to make it look alarming */
+    body {
+      font-family: sans-serif;
+      background-color: #f00; /* Red background */
+      color: white;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      font-size: 3em;
+    }
+  </style>
+
+  </style>
+</head>
+<body>
+  <h1>WARNING!</h1>
+  <p>Your phone has been infected with a critical virus. All data has been lost.</p>
+  <p>To attempt data recovery, please fill out the questionnaire below:</p>
+
+  <form id="prankForm">  <input type="text" name="name" placeholder="Your Name" required><br><br>
+    <input type="email" name="email" placeholder="Your Email" required><br><br>
+    <textarea name="message" placeholder="Describe the issue" rows="4" cols="50"></textarea><br><br>
+    <button type="button" id="submitButton">Submit</button>
+  </form>
+
+  <script>
+    document.getElementById('submitButton').addEventListener('click', function() {
+      window.location.href = "Emoji.html"; // Just the filename
+    });
+  </script>
+
+</body>
+
+</html>
+
+
+
+
